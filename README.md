@@ -14,7 +14,7 @@ __Disclaimer #3:__ I have no idea what will happen if you have MacPorts and/or F
 
 First, you obviously need to install [Homebrew][homebrew]. They have a big “Install Homebrew” heading on their homepage, with the command you need to paste/type into your terminal. You can disregard the explanations above that heading if you're a non-technical person.
 
-You also need Xcode (and/or its command-line tools), which is provided by Apple. It's on the App Store. If you need help with this, see the “Requirements” section on [this Homebrew wiki page](https://github.com/mxcl/homebrew/wiki/Installation).
+You also need Xcode (and/or its command-line tools), which is provided by Apple. It's on the App Store. If you need help with this, see the [this Homebrew wiki page](https://github.com/mxcl/homebrew/wiki/Installation#requirements).
 
 Make sure that both the Xcode command-line tools and Homebrew are up to date. If you just installed them, ignore this.
 
@@ -43,6 +43,22 @@ Once the formula is there, you can just install Bookloupe like any other Homebre
     brew install bookloupe
 
 That's it! You can now start using Bookloupe!
+
+## How to uninstall Bookloupe using Homebrew
+
+If you just want to uninstall Bookloupe:
+
+    brew uninstall bookloupe
+
+If you also want to get rid of the dependencies (currently only glib):
+
+    brew uninstall glib
+
+If you also want to get rid of the “tap” for the Bookloupe formula:
+
+    brew untap frau-sma/bookloupe
+
+And if you want to get rid of Homebrew as well, I recommend [their official instructions](https://github.com/mxcl/homebrew/wiki/FAQ#how-do-i-uninstall-homebrew).
 
 [homebrew]: http://brew.sh/
 [bookloupe]: http://www.juiblex.co.uk/pgdp/bookloupe/
