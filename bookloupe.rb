@@ -9,10 +9,10 @@ class Bookloupe < Formula
   depends_on 'glib'
 
   def install
-    system "./configure", "--disable-dependency-tracking",
-                          "--disable-silent-rules",
+    system './configure', '--disable-dependency-tracking',
+                          '--disable-silent-rules',
                           "--prefix=#{prefix}"
-    system "make", "install"
+    system 'make', 'install'
   end
 
   test do
