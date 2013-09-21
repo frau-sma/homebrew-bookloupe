@@ -2,7 +2,7 @@
 
 ## What are these instructions designed to do?
 
-These instructions are for people who want to install [Bookloupe](http://www.juiblex.co.uk/pgdp/bookloupe/) on a Mac, using [Homebrew][homebrew] and the formula I am providing for the purpose.
+These instructions are for people who want to install [Bookloupe][bookloupe] on a Mac, using [Homebrew][homebrew] and the formula I am providing for the purpose.
 
 __Disclaimer #1:__ This is the first Homebrew formula I've written, so use at your own risk.
 
@@ -44,4 +44,5 @@ Once the formula is there, you can just install Bookloupe like any other Homebre
 
 That's it! You can now start using Bookloupe!
 
-[homebrew](http://brew.sh/)
+[homebrew]: (http://brew.sh/)
+[bookloupe]: (http://www.juiblex.co.uk/pgdp/bookloupe/)
