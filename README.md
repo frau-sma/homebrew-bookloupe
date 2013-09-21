@@ -44,5 +44,5 @@ Once the formula is there, you can just install Bookloupe like any other Homebre
 
 That's it! You can now start using Bookloupe!
 
-[homebrew]: (http://brew.sh/)
-[bookloupe]: (http://www.juiblex.co.uk/pgdp/bookloupe/)
+[homebrew]: http://brew.sh/
+[bookloupe]: http://www.juiblex.co.uk/pgdp/bookloupe/
